@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1074</width>
+    <height>754</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="ListofTournaments">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>31</y>
+      <width>191</width>
+      <height>491</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddTournament">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>550</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Tournament</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="EditTournament">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>550</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Edit Tournament</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="Display">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>471</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="Matches">
+     <attribute name="title">
+      <string>Matches</string>
+     </attribute>
+     <widget class="QPushButton" name="submitResult">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>440</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>submit Result</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Teams">
+     <attribute name="title">
+      <string>Teams</string>
+     </attribute>
+     <widget class="QPushButton" name="submitTeam">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>440</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>submit Team</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="removeTeam">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>440</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>remove Team</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Schedule">
+     <attribute name="title">
+      <string>Schedule</string>
+     </attribute>
+     <widget class="QPushButton" name="printSchedule">
+      <property name="geometry">
+       <rect>
+        <x>364</x>
+        <y>440</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>print Schedule</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Officials">
+     <attribute name="title">
+      <string>Officials</string>
+     </attribute>
+     <widget class="QPushButton" name="submitOfficial">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>440</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>submit Official</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="removeOfficial">
+      <property name="geometry">
+       <rect>
+        <x>374</x>
+        <y>440</y>
+        <width>81</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>remove Official</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1074</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
